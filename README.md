@@ -1,22 +1,9 @@
 # DevOps Learning Journey
 
-Welcome to your DevOps learning repository! This repository is designed to track your progress as you navigate through various modules of this DevOps bootcamp. It will serve as a central hub for all your notes, labs, and project work. Use this repository template and let's get started on your journey to becoming a DevOps Engineer!
+Welcome to my DevOps Learning Journey. 
 
-## Initial setup
 
-![UseTemplate](./images/UseTemplate.png)
--------
-![UseTemplate](./images/Createrepo.png)
-
-## Repository Structure
-
-This repository is organized into multiple modules, each representing a core area of DevOps. You will find a dedicated folder for each module where you can store your notes, labs, and any other relevant materials.
-
-## Sample Directory Structure
-
-Here's how your directory structure should look like as you progress through the bootcamp. This is an example of what your repository might look like after completing a few modules:
-
-Example layout for repo only. Yours could be different but this is inspiration. 
+## Directory Structure
 
 ```bash
 devops-learning/
@@ -104,24 +91,4 @@ devops-learning/
 - **CI/CD:** Implement Continuous Integration and Continuous Deployment pipelines.
 - **Networking:** Understand the fundamentals of networking and how it applies to DevOps.
 
-## How to Use This Repository
 
-- Make sure to have a GitHub account first
-- Use the repo template and make your own repo from this into your GitHub Account
-- Clone your repo locally and work on it.
-
-## Best Practices
-
-- Stay Organised: Keep your notes and labs organized in their respective module folders.
-- Commit Often: Make regular commits to ensure you are tracking your progress effectively.
-
-- Share Your Progress: Create LinkedIn posts about your journey and share your repository link. Don’t forget to tag @CoderCo!
-
-- Ask for Help: If you get stuck, don't hesitate to reach out to the community or your mentors
-
-## License
-
-This repository is licensed under the MIT License. Feel free to use it as a template for your learning journey.
-
-## Contact
-For any questions or support, reach out to CoderCo or ask in our discussion forums.
