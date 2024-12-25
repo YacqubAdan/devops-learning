@@ -13,7 +13,7 @@ strings data.txt | grep "=="
 ### Explanation of the Commands
 
 1. `strings`
-  - ***Extracts readable text* from `data.txt` which at the moment contain binary data.
+  - **Extracts readable text** from `data.txt` which at the moment contain binary data.
   - This **filters out characters** leaving only human readable strings.
 2. `|` (Pipe)
   - **Passes the output** of `strings` as input to the grep command
@@ -51,15 +51,6 @@ Rot13 on Wikipedia - we used Rot13 to get the password for the next level.
 
 
 ## Level 12
-**Password:** 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
-
-### Goal
-The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
-
-
-
-
-## Level 13
 **Password:** FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ### Goal
@@ -84,7 +75,7 @@ cat data.txt | xxd -r > /tmp/data
 6. `cat`
  - To finally view the content of the data file and retreive password
 
-## Level 14
+## Level 13
 **Password:** MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ### Goal
@@ -103,7 +94,7 @@ ssh -i sshkey.private bandit14@localhost -p 2220
 3. `-p 2220`
  - port 2220
 
-## Level 15
+## Level 14
 **Password:** 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 ### Goal
@@ -119,7 +110,7 @@ ncat localhost 30000
  - This is the command to initiate a network connection using ncat
 
 
-## Level 16
+## Level 15
 **Password:** kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 ### Goal
@@ -135,7 +126,7 @@ ncat --ssl localhost 30001
  - This option specifies that the connection should use SSL/TLS encryption for secure communication
 
 
-## Level 17
+## Level 16
 **Password:** private key
 The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL/TLS and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 
@@ -153,7 +144,7 @@ ncat --ssl localhost 31790 -p 2220
 2. `-p 31000-32000`
  - Looking for the range of ports between 31000-32000 
 
-## Level 18
+## Level 17
 **Password:** cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 ### Goal 
@@ -173,7 +164,7 @@ ssh -t bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh
  - Opens a shell on the remote server
 
 
-## Level 19
+## Level 18
 **Password:** 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ### Goal
@@ -190,7 +181,7 @@ The password for the next level is stored in a file readme in the homedirectory.
 2. `./bandit20-do cat /etc/bandit_pass/bandit20`
 - This command runs the cat command as the bandit20 user to read the password file located at /etc/bandit_pass/bandit20. The output will be the password for the next level.
 
-## Level 20
+## Level 19-20
 **Password:** EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 ### Goal
