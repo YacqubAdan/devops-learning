@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 my_home="$HOME"
 my_user="$USER"
 my_os="$OSTYPE"
